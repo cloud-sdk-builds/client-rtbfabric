@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-rtbfabric`](https://www.npmjs.com/package/@aws-sdk/client-rtbfabric/v/3.929.0).
+[`@aws-sdk/client-rtbfabric`](https://www.npmjs.com/package/@aws-sdk/client-rtbfabric/v/3.930.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-rtbfabric@3.929.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-rtbfabric@3.930.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-sC6U+6tyzNi7jEdW1IZcjFAMpxMJDA2VKGchF6O23TPRkfFm74H5I6j9mMD8u4IG
+sha384-sIzwVrYN53ZHTCofZ7zu/4KcLzkZLIAwGYkYftxwIDK3nWHSyjUYGpDHLDlavbKq
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-rtbfabric": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-rtbfabric@3.929.0/index.min.mjs"
+            "@aws-sdk/client-rtbfabric": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-rtbfabric@3.930.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-rtbfabric@3.929.0/index.min.mjs": "sha384-sC6U+6tyzNi7jEdW1IZcjFAMpxMJDA2VKGchF6O23TPRkfFm74H5I6j9mMD8u4IG"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-rtbfabric@3.930.0/index.min.mjs": "sha384-sIzwVrYN53ZHTCofZ7zu/4KcLzkZLIAwGYkYftxwIDK3nWHSyjUYGpDHLDlavbKq"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-rtbfabric": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-rtbfabric@3.929.0/index.min.mjs"
+                        "@aws-sdk/client-rtbfabric": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-rtbfabric@3.930.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-rtbfabric@3.929.0/index.min.mjs": "sha384-sC6U+6tyzNi7jEdW1IZcjFAMpxMJDA2VKGchF6O23TPRkfFm74H5I6j9mMD8u4IG"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-rtbfabric@3.930.0/index.min.mjs": "sha384-sIzwVrYN53ZHTCofZ7zu/4KcLzkZLIAwGYkYftxwIDK3nWHSyjUYGpDHLDlavbKq"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.929.0`)
+* Always pin to a specific version (`@3.930.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-rtbfabric/blob/refs/tags/3.929.0/LICENSE
+https://github.com/cloud-sdk-builds/client-rtbfabric/blob/refs/tags/3.930.0/LICENSE
 ```
 
 ---
